@@ -15,6 +15,8 @@ namespace SalesWebMVC.Controllers
             return View();
         }
 
+        //IActionResult é uma interface de tipo genérico para qualquer resultado de uma ação
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
